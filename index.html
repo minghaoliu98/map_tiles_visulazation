@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>QMetaTile Example</title>
+  <title>Japan airport and road</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -56,8 +56,8 @@
     legend.onAdd = function () {
         // Create Div Element and Populate it with HTML
         var div = L.DomUtil.create('div', 'legend');
-        div.innerHTML += '<p style=color:blue; font = 20pt> airport </p>';
-        div.innerHTML += '<p style=color:green; font = 20pt> main road </p>';
+        div.innerHTML += '<p style="color:blue; font-size: x-large;"> airport </p>';
+        div.innerHTML += '<p style="color:green; font-size:x-large;"> main road </p>';
       return div;
     };
     legend.addTo(map)
